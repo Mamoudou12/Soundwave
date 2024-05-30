@@ -1,0 +1,240 @@
+* {
+    
+    color: #ffffff;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+body {
+    background-color: #2F303A;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    
+}
+
+.menu li {
+    margin: 0 30px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu li, a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+
+}
+
+.left img {
+    width: 500px;
+}
+
+
+.right {
+    width: 50%;
+    margin-top:250px;
+}
+
+.right button {
+    background-color: #1762A7;
+    height: 50px;
+    width: 120px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+.right img {
+    margin-left: 280px;
+    height: 250px;
+    margin-top: 65px;
+}
+
+#music {
+    display: flex;
+    margin-top: 80px;
+    height: 800px;
+    
+}
+
+#music .discover {
+    width: 50%;
+    margin-top: 100px;
+    
+}
+
+.title {
+    margin-top: 60px;
+}
+
+.charts {
+    width: 100px;
+    height: 110px;
+    background-color: #202027;
+    text-align: center;
+}
+
+.items {
+    width: 500px;
+    display: flex;
+    margin-left: 0;   
+}
+
+
+.charts img {
+    background: transparent;
+    margin-top: 10px;
+}
+
+.charts p {
+    line-height: 2px;
+    /* margin-right: 5px; */
+}
+
+
+
+
+.pictures {
+    margin-top: 100px;
+    margin-right: 90px;
+}
+
+#form {
+    margin-top: 30px;
+    height: 600px;
+    display: flex;
+}
+
+.fun {
+    width: 40%; 
+    text-align: center;
+    margin-top: 220px;
+    font-size: 30px;
+}
+
+.fun span {
+    color: #BC3A80;
+}
+
+.formilaire {
+    width: 40%;
+    height: 450px;
+    margin-top: 70px;
+    background-color: #202027;
+    border-radius: 20px;
+    margin-right: 90px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    margin-right: 40px;
+    background-color: #202027;
+    
+}
+
+.formilaire label {
+    margin-left: 23px;
+}
+
+input {
+    width: 360px;
+    margin: 20px;
+    height: 30px;
+    background-color: #202027;
+    border: 1px solid #1762A7;
+    border-radius: 5px;
+}
+
+
+.formilaire button {
+    width: 360px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 25px;
+    background-color: #1762A7;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.charts img {
+    width: 50px;
+}
+
+.foot {
+    height: 60px;
+    background-color: #202027;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.gauche {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.droit {
+    display: flex;
+    width: 230px;
+    justify-content: space-between;
+    height: 40px;
+    
+}
+
+.ftr {
+    display: flex;
+}
+
+@media(max-width:800px) {
+    .container {
+        flex-direction: column;
+    }
+
+    #music {
+        flex-direction: column;
+    }
+
+    .items {
+        flex-direction: column;
+    }
+
+    .foot {
+        margin-top: 480px;
+        
+    }
+
+    #form {
+        flex-direction: column;
+    }
+
+    
+    #form input {
+        width: 150px;
+    }
+
+    #form button {
+        width: 150px;
+    }
+}
+
+
+
+
+
+
