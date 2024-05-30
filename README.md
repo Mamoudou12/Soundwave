@@ -1,3 +1,6 @@
+Les dificulté rencontre:
+-Elaboration du formulaire
+-Gérer la responsivité du site
 Projet de Maquette Web Responsive
 Description
 Ce projet consiste à transformer une maquette web réalisée avec Figma en une page web responsive. Le but est de s'assurer que la page web s'adapte correctement à différentes tailles d'écran et appareils, en utilisant HTML et CSS.
