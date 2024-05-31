@@ -202,6 +202,10 @@ input {
 }
 
 @media(max-width:800px) {
+
+    .menu {
+        flex-direction: column;
+    }
     .container {
         flex-direction: column;
     }
